@@ -24,7 +24,7 @@ version == 1.0
 其中 $\theta_1$代表着投资者对于利润的权重  
  $\theta_2$代表着投资者对于风险的权重  
  $x_i$代表着不同的理财产品  
-例如风险敏感型消费者:$\theta_1 = 0.3$ $\theta_2 =0.4$  $\theta_3 = 0.3$  
+例如风险敏感型消费者: $\theta_1 = 0.3$ $\theta_2 =0.4$  $\theta_3 = 0.3$  
 
 <font color=yellow>重写目标函数: </font>  
   $\max\sum_{i=1}^{n} (\theta_1m_i+2\theta_3G_fb^2x_i)x_i - \theta_2 \rho_{ij}x_ix_j-\theta_3b^2G_f^2x_i^2-\theta_3b^2$ 
