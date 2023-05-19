@@ -4,7 +4,7 @@ version == 1.0
 请前端同学阅读一下教程[点击这里](https://github.com/YangD5014/Quantum-Spear/blob/main/tutorial_yang.ipynb)  
 本次的例子背景  
 拥有的总资产是B,其中有n个理财产品可以选择,  
-每个理财产品的收益率是$m_i$, 风险的协方差矩阵是$p_{ij}$
+每个理财产品的收益率是 $m_i$, 风险的协方差矩阵是 $p_{ij}$
 | 资产 | 预期收益率 | 
 | :----:| :----: | 
 | 股票A | 8%| 
