@@ -2,8 +2,7 @@
 Quantum Spear 小组协作代码共享空间  
 version == 1.0  
 请前端同学阅读一下教程[点击这里](https://github.com/YangD5014/Quantum-Spear/blob/main/tutorial_yang.ipynb)  
-似乎教程的markdown文本会出现显示错误,略去也可
-本次的例子  
+本次的例子背景  
 拥有的总资产是B,其中有n个理财产品可以选择,  
 每个理财产品的收益率是$m_i$, 风险的协方差矩阵是$p_{ij}$
 | 资产 | 预期收益率 | 
