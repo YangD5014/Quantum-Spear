@@ -15126,40 +15126,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>本次的例子:<br />
-拥有的总资产是B,其中有n个理财产品可以选择,<br />
-每个理财产品的收益率是$m_i$, 风险的协方差矩阵是$p_{ij}$
-| 资产 | 预期收益率 | 
-| :----:| :----: | 
-| 股票A | 8%| 
-| 债券B | 5% | 
-| 期货C | 10% | 
-| REIT D | 6% |</p>
-<p>协方差矩阵$p_{ij}$:<br />
-| 资产 | 股票A | 债券B | 期货C | REIT D |
-| --- | --- | --- | --- | --- |
-| 股票A | 0.04 | 0.01 | 0.06 | 0.025 |
-| 债券B | 0.01 | 0.02 | 0.03 | 0.005 |
-| 商品C | 0.06 | 0.03 | 0.09 | 0.04 |
-| REIT D | 0.025 | 0.005 | 0.04 | 0.09 |</p>
-<p>目标函数=$\max\sum_{i=1}^{n} \theta_1m_ix_i - \theta_2 \rho_{ij}x_ix_j-\theta_3(G_fbx_i-b)^2$<br />
-其中$\theta_1$代表着投资者对于利润的权重<br />
-$\theta_2$代表着投资者对于风险的权重<br />
-$x_i$代表着不同的理财产品<br />
-例如风险敏感型消费者:$\theta_1 = 0.3$ $\theta_2 =0.4$  $\theta_3 = 0.3$</p>
-<p><font color=red>重写目标函数: </font><br />
-  $\max\sum_{i=1}^{n} (\theta_1m_i+2\theta_3G_fb^2x_i)x_i - \theta_2 \rho_{ij}x_ix_j-\theta_3b^2G_f^2x_i^2-\theta_3b^2$</p>
-
-</div>
-</div>
-</div>
-</div>
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h5 id="%E7%AC%AC%E4%B8%80%E6%AD%A5:-%E5%8C%85%E7%9A%84%E5%AF%BC%E5%85%A5">&#31532;&#19968;&#27493;: &#21253;&#30340;&#23548;&#20837;<a class="anchor-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5:-%E5%8C%85%E7%9A%84%E5%AF%BC%E5%85%A5">&#182;</a></h5>
 </div>
 </div>
