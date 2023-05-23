@@ -123,8 +123,10 @@ class QuantumFinance(object):
                 self.answer+=f'第{index+1}个资产,不投资 \n'
                 self.answer_dict[index+1]='0%'
             if i!='0'*self.g:
-                self.answer+=f'第{index+1}个资产,投资{1/self.g*int(i[::-1],2)*100}%\n'
+                count = i.count('1')
+                self.answer+=f'第{index+1}个资产,投资{count*100/self.g} %\n'
                 self.answer_dict[index+1]=f'{1/self.g*int(i[::-1],2)*100}%'
         print(self.answer)
+        
         
         
